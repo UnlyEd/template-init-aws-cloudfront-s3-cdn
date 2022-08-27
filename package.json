@@ -11,6 +11,7 @@
     "deploy": "cdk deploy --profile default CDNStack",
     "test": "jest",
     "cdk": "cdk",
+    "bootstrap": "cdk bootstrap --profile default",
     "aws-get-identity": "aws sts get-caller-identity --profile default"
   },
   "devDependencies": {
