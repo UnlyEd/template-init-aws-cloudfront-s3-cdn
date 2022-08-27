@@ -2,9 +2,8 @@
 import * as cdk from 'aws-cdk-lib';
 import { StackProps } from 'aws-cdk-lib';
 import 'source-map-support/register';
+import { config } from '../config';
 import { InitCdnStack } from '../lib/init-cdn-stack';
-
-const config = require('../config.json');
 
 const app = new cdk.App();
 const stackProps: StackProps = {

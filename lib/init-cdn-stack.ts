@@ -20,8 +20,7 @@ import * as route53 from 'aws-cdk-lib/aws-route53';
 import * as route53Targets from 'aws-cdk-lib/aws-route53-targets';
 import { Bucket } from 'aws-cdk-lib/aws-s3';
 import { Construct } from 'constructs';
-
-const config = require('../config.json');
+import { config } from '../config';
 
 export class InitCdnStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
