@@ -2,13 +2,13 @@
   "name": "template-init-aws-cloudfront-s3-cdn",
   "version": "0.1.0",
   "bin": {
-    "cdn": "bin/cdn.js"
+    "init-cdn": "bin/init-cdn.js"
   },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "synth": "cdk synth --profile default cdn",
-    "deploy": "cdk deploy --profile default cdn",
+    "synth": "cdk synth --profile default init-cdn",
+    "deploy": "cdk deploy --profile default init-cdn",
     "test": "jest",
     "cdk": "cdk",
     "aws-get-identity": "aws sts get-caller-identity --profile default"
