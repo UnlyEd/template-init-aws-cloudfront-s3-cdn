@@ -7,8 +7,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "synth": "cdk synth --profile default init-cdn",
-    "deploy": "cdk deploy --profile default init-cdn",
+    "synth": "cdk synth --profile default CDNStack",
+    "deploy": "cdk deploy --profile default CDNStack",
     "test": "jest",
     "cdk": "cdk",
     "aws-get-identity": "aws sts get-caller-identity --profile default"
