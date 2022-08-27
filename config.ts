@@ -3,9 +3,6 @@ export const config = {
     'name': 'cdn',
     'description': 'CDN powered by AWS S3, AWS CloudFront, and AWS Route 53. Created by https://github.com/UnlyEd/template-init-aws-cloudfront-s3-cdn',
   },
-  's3': {
-    'bucketId': 'cdnBucket',
-  },
   'route53': {
     'domainName': 'thabolebelo.com',
   },

@@ -27,7 +27,7 @@ export class InitCdnStack extends Stack {
     super(scope, id, props);
 
     // Create an S3 bucket, to host all files that'll be stored into our CDN
-    const cdnBucket = new Bucket(this, config.s3.bucketId, {
+    const cdnBucket = new Bucket(this, `${config.stack.name}Bucket`, {
       versioned: false,
       removalPolicy: RemovalPolicy.DESTROY,
     });
